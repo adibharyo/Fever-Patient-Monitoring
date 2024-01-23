@@ -10,6 +10,5 @@ The measurement is carried out by bringing the object (in this experiment, it is
 
 ## System Design
 
-## Measurements and Results
+![Schematic Diagram_bb](https://github.com/adibharyo/Fever-Patient-Monitoring/assets/70692957/884965a9-29d8-4f8c-9f9a-cee3dbdee4a2)
 
-## Conclution
