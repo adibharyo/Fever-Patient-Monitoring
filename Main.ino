@@ -5,16 +5,16 @@
 #include <ArduinoJson.h>
 #include <driver/rtc_io.h>
 
-#define WIFI_SSID "JATI A2/3"
-#define WIFI_PASSWORD "grahajati"
+#define WIFI_SSID " " //Insert WiFi SSID
+#define WIFI_PASSWORD " " //Insert WiFi Password
 
-#define BOT_TOKEN "5500045044:AAFM3M_TsXclTgj2OKsY2td9RAdfClJnGXU"
-#define CHAT_ID "5884958723"
+#define BOT_TOKEN "  " //Insert Telegram BOT Token
+#define CHAT_ID "  " //Insert Telegram Chat ID
 
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
 
-#define TIME_TO_SLEEP  5        /* Time ESP32 will go to sleep (in seconds) */
+#define TIME_TO_SLEEP  5        //Time ESP32 will go to sleep (in seconds) 
 #define BUTTON_PIN_BITMASK 0x200000000 // 2^33 in hex
 
 RTC_DATA_ATTR int bootCount = 0;
